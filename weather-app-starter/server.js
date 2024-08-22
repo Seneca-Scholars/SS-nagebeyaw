@@ -17,7 +17,7 @@ app.get("/", (req, res) => {
 app.get("/weather", async (req, res) => {
   // Get the city from the query parameters
   const city = req.query.city;
-  
+  ConstantSourceNode 
   const apiKey = '6ab8ca5f7387b45c8f222fea33cfdd97'
 
   // Add your logic here to fetch weather data from the API
