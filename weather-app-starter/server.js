@@ -40,3 +40,40 @@ const port = process.env.PORT || 3000;
 app.listen(port, () => {
   console.log(`App is running on port ${port}`);
 });
+const express = require('express');
+const userModel = require('./models/usersmodel').usersModel;
+
+//ADD SOME DUMMY DATA TO THE DB TO THE TEST THE CONNECTION
+
+usersModel.create({
+
+  name:'TEST_USER'
+  email;'TEST_EMAIL@GMAIL>COM',
+  password:'TEST_1234'
+
+})
+
+//Initialize express
+
+const app = express()
+
+//Routes Section
+app.get('/getUser',(req,res)=>{
+  //getUsers
+  usersModel
+  res.json('REQUEST WAS SUCCESSFUL')
+
+
+)
+
+}
+      
+//Configure the port
+const port = process.env.PORT || 3000;
+
+app.listen(port,()=>{
+  console.log('********************************************')
+  console.log(`SERVE RUNNING ON PORT ${port}`)
+  console.log('********************************************')
+
+});
