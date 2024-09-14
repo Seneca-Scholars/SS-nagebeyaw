@@ -3,7 +3,7 @@ const app = express();
 app.use(express.json()); // This middleware is used to parse JSON bodies.
 
 app.get('/api/items', (req, res) => {
-    res.send('List of items');
+    res.send.json([ test,test,test,test]);
   });
 
   app.post('/api/items', (req, res) => {
