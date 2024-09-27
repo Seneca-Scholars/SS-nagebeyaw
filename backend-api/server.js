@@ -4,22 +4,45 @@ app.use(express.json()); // This middleware is used to parse JSON bodies.
 
 
 app.get('/api/items', (req, res) => {
-    let cars = [
+    let houses = [
         {
-          "color": "purple",
-          "type": "minivan",
-          "registration": new Date('2017-01-03'),
-          "capacity": 7
+          "price": "203k",
+          "sqrft": "2000",
+          "beds": "4",
+          "dateListed": '2017-01-03',
+          "interestedPpl": 32
         },
         {
-          "color": "red",
-          "type": "station wagon",
-          "registration": new Date('2018-03-03'),
-          "capacity": 5
+          "price": "150k",
+          "sqrft": "1800",
+          "beds": "3",
+          "baths": "2",
+          "dateListed": '2018-03-03',
+          "interestedPpl": 25
+
         },
+        {
+            "price": "120k",
+            "sqrft": "1200",
+            "beds": "2",
+            "baths": "1.5",
+            "dateListed": '2018-03-03',
+            "interestedPpl": 15
+  
+          },
+          {
+            "price": "190k",
+            "sqrft": "1900",
+            "beds": "3",
+            "baths": "3",
+            "dateListed":'2018-03-03',
+            "interestedPpl": 12
+  
+          },
+
         
       ]
-   res.send(cars)
+   res.send(houses)
   });
 
   app.post('/api/items', (req, res) => {

@@ -1,7 +1,8 @@
+
 const express = require('express');
 const app = express();
 app.use(express.json()); // This middleware is used to parse JSON bodies.
-
+//call connect'
 app.get('/api/items', (req, res) => {
     res.send.json([ test,test,test,test]);
   });
@@ -20,3 +21,4 @@ app.get('/api/items', (req, res) => {
     const itemId = req.params.id;
     res.send(`Item with ID ${itemId} deleted`);
   });
+  
