@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "price": "203k",
+    "sqrft": "2000",
+    "beds": "4",
+    "baths": "2",
+    "type": "Single Family Home",
+    "location": "123 Maple St, Springfield",
+    "dateListed": "2017-01-03",
+    "status": "Available",
+    "interestedPpl": 32
+  },
+  {
+    "id": 2,
+    "price": "150k",
+    "sqrft": "1800",
+    "beds": "3",
+    "baths": "2",
+    "type": "Condo",
+    "location": "456 Oak St, Springfield",
+    "dateListed": "2018-03-03",
+    "status": "Pending",
+    "interestedPpl": 25
+  },
+  {
+    "price": "203k",
+    "sqrft": "2000",
+    "beds": "4",
+    "dateListed": "2017-01-03",
+    "interestedPpl": 32,
+    "id": 3
+  },
+  {
+    "price": "203k",
+    "sqrft": "2000",
+    "beds": "4",
+    "dateListed": "2017-01-03",
+    "interestedPpl": 32,
+    "id": 4
+  },
+  {
+    "price": "203k",
+    "sqrft": "2000",
+    "beds": "4",
+    "dateListed": "2017-01-03",
+    "interestedPpl": 32,
+    "id": 5
+  },
+  {
+    "price": "150k",
+    "sqrft": "1800",
+    "beds": "3",
+    "baths": "2",
+    "type": "Condo",
+    "location": "456 Oak St, Springfield",
+    "dateListed": "2018-03-03",
+    "status": "Pending",
+    "interestedPpl": 25,
+    "id": 6
+  }
+]
